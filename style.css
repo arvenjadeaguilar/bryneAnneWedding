@@ -412,7 +412,7 @@ img {
   text-transform: capitalize;
   font-size: 20px;
   color: #8c9dad;
-  font-family: "DM Sans", sans-serif;
+  /* font-family: "DM Sans", sans-serif; */
 }
 
 @media (max-width: 575px) {
@@ -454,7 +454,7 @@ img {
   font-weight: 400;
   font-size: 25px;
   line-height: 31px;
-  font-family: "Petit Formal Script", cursive;
+  /* font-family: "Petit Formal Script", cursive; */
   color: #000;
 }
 
@@ -462,6 +462,17 @@ img {
   .wpo-section-title span {
     font-size: 18px;
     line-height: 16px;
+    margin-top: 16px;
+  }
+  .static-hero .hero-wrap .wpo-hero-text {
+    margin-bottom: 12px !important;
+  }
+  .static-hero .col:nth-child(2) .wpo-hero-img {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .static-hero {
+    padding-bottom: 25px !important;
   }
 }
 
