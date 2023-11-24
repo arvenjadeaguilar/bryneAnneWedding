@@ -586,13 +586,47 @@
       smartSpeed: 1200,
       margin: 30,
       loop: false,
-      nav: true,
-      navText: [
-        '<i class="fi ti-angle-left"></i>',
-        '<i class="fi ti-angle-right"></i>',
-      ],
+      nav: false,
       dots: false,
       items: 1,
+      responsive: {
+        0: {
+          items: 1,
+          dots: false,
+          arrows: false,
+          nav: false,
+        },
+
+        350: {
+          items: 1,
+          dots: false,
+          arrows: false,
+          nav: false,
+        },
+        575: {
+          items: 1,
+          dots: false,
+          arrows: false,
+          nav: false,
+        },
+        767: {
+          items: 1,
+          dots: false,
+          arrows: false,
+          nav: false,
+        },
+
+        992: {
+          items: 1,
+          dots: false,
+          arrows: false,
+          nav: false,
+        },
+
+        1200: {
+          items: 3,
+        },
+      },
     });
   }
 
@@ -617,25 +651,35 @@
       responsive: {
         0: {
           items: 1,
-          dots: true,
+          dots: false,
           arrows: false,
           nav: false,
         },
 
         350: {
-          items: 2,
+          items: 1,
+          dots: false,
+          arrows: false,
+          nav: false,
         },
         575: {
-          items: 2,
+          items: 1,
+          dots: false,
+          arrows: false,
+          nav: false,
         },
         767: {
-          items: 2,
+          items: 1,
           dots: false,
+          arrows: false,
+          nav: false,
         },
 
         992: {
-          items: 3,
+          items: 1,
           dots: false,
+          arrows: false,
+          nav: false,
         },
 
         1200: {

@@ -73,12 +73,6 @@ Version:        1.0.0
 ----------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Old+Standard+TT:wght@400;700&family=Petit+Formal+Script&display=swap");
 /* 1.1	Theme Reset Style */
-@font-face {
-  font-family: "autography";
-  src: url("fonts/autography.otf");
-  font-weight: normal;
-  font-style: normal;
-}
 
 html {
   font-size: 18px;
@@ -89,7 +83,7 @@ html {
 }
 
 body {
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: #757575;
   background-color: #fff;
   font-size: 16px;
@@ -116,7 +110,7 @@ h4,
 h5,
 h6 {
   color: #212121;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-weight: 600;
 }
 
@@ -433,7 +427,7 @@ img {
   line-height: 55px;
   margin: 0;
   position: relative;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-weight: 500;
   color: #000;
   display: inline-block;
@@ -876,7 +870,7 @@ img {
   color: #fff;
   position: relative;
   font-size: 20px;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -1124,7 +1118,7 @@ img {
   margin: 0 0 1.3em;
   position: relative;
   text-transform: capitalize;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   padding-bottom: 20px;
   font-weight: 700;
 }
@@ -1268,7 +1262,7 @@ img {
 }
 
 .blog-sidebar .about-widget a {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 14px;
   font-size: 0.77778rem;
   color: #212121;
@@ -1365,7 +1359,7 @@ img {
   font-weight: 500;
   line-height: 1.3em;
   margin: 0 0 0.3em;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 @media (max-width: 1199px) {
@@ -1552,7 +1546,7 @@ img {
   position: relative;
   text-transform: none;
   text-transform: uppercase;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .wpo-shop-sidebar > .widget + .widget {
@@ -1622,7 +1616,7 @@ img {
 }
 
 .wpo-shop-sidebar .widget_price_filter .filter-price button {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   background: transparent;
   color: #c8a898;
   font-size: 18px;
@@ -1686,7 +1680,7 @@ img {
 
 .wpo-shop-sidebar .widget_product_categories,
 .wpo-shop-sidebar .woocommerce-widget-layered-nav {
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .wpo-shop-sidebar .widget_product_categories .product-categories a,
@@ -1840,7 +1834,7 @@ img {
   font-size: 18px;
   font-weight: 600;
   color: #585858;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .widget_best-seller .wpo-best-seller-item .wpo-best-seller-text span {
@@ -2921,7 +2915,7 @@ img {
     color: #212121;
     font-weight: 500;
     position: relative;
-    font-family: "autography", sans-serif;
+    font-family: "DM Sans", sans-serif;
     text-transform: uppercase;
   }
 }
@@ -3635,7 +3629,7 @@ img {
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 @media (max-width: 1500px) {
@@ -3911,7 +3905,7 @@ wpo-hero-section-s2
   font-size: 70px;
   line-height: 88px;
   text-align: center;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
   color: #424242;
   background: rgba(255, 255, 255, 0.5);
   -webkit-backdrop-filter: blur(5px);
@@ -4694,7 +4688,7 @@ wpo-hero-section-s2
   color: #212121;
   margin: 0;
   position: relative;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
 }
 
 @media (max-width: 991px) {
@@ -4710,7 +4704,7 @@ wpo-hero-section-s2
 
 .wpo-site-footer .about-widget .logo {
   font-size: 45px;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   color: #c8a898;
   line-height: 40px;
 }
@@ -4971,7 +4965,7 @@ wpo-hero-section-s2
   font-weight: 400;
   font-size: 70px;
   line-height: 88px;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 @media (max-width: 1399px) {
@@ -5022,7 +5016,7 @@ wpo-hero-section-s2
   font-weight: 400;
   font-size: 30px;
   line-height: 37px;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   color: #212121;
 }
 
@@ -5132,7 +5126,7 @@ wpo-hero-section-s2
 }
 
 .wpo-wedding-time #clock .time {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-size: 60px;
   line-height: 74px;
@@ -5169,7 +5163,7 @@ wpo-hero-section-s2
   font-size: 25px;
   line-height: 31px;
   text-align: center;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 @media (max-width: 1200px) {
@@ -6401,7 +6395,7 @@ wpo-hero-section-s2
   font-weight: 400;
   font-size: 25px;
   line-height: 31px;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   margin-top: 0px;
   margin-bottom: 15px;
 }
@@ -6635,7 +6629,7 @@ wpo-hero-section-s2
   margin-bottom: 30px;
   position: relative;
   z-index: 11;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
   margin-bottom: 20px;
   display: block;
 }
@@ -6878,7 +6872,7 @@ wpo-hero-section-s2
   line-height: 88px;
   color: #212121;
   margin: 0 0 0.3em;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6929,7 +6923,7 @@ wpo-hero-section-s2
 }
 
 .wpo-fun-fact-section .grid h3 span {
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 .wpo-fun-fact-section .grid h3 + p {
@@ -6939,7 +6933,7 @@ wpo-hero-section-s2
   line-height: 43px;
   margin: 0;
   color: #585858;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
 }
 
 @media (max-width: 1200px) {
@@ -7055,7 +7049,7 @@ wpo-hero-section-s2
   max-width: 200px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-align: center;
   padding: 10px 20px;
   -webkit-transition: all 0.3s;
@@ -7068,7 +7062,7 @@ wpo-hero-section-s2
   font-size: 23px;
   line-height: 28px;
   text-align: center;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   margin-bottom: 0px;
   color: #8c9dad;
 }
@@ -7280,7 +7274,7 @@ wpo-hero-section-s2
   .wpo-testimonial-info
   .wpo-testimonial-info-text
   h5 {
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
   color: #8c9dad;
   font-weight: 400;
   font-size: 25px;
@@ -7517,7 +7511,7 @@ wpo-hero-section-s2
   font-weight: 400;
   font-size: 30px;
   line-height: 38px;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
   color: #000;
 }
 
@@ -7755,7 +7749,7 @@ wpo-hero-section-s2
   h4 {
   font-size: 18px;
   font-weight: 500;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .wpo-pricing-section
@@ -7785,7 +7779,7 @@ wpo-hero-section-s2
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 0;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 @media (max-width: 1199px) {
@@ -7820,7 +7814,7 @@ wpo-hero-section-s2
   h2
   span {
   font-size: 16px;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
   color: #525252;
 }
 
@@ -7965,7 +7959,7 @@ wpo-hero-section-s2
   font-size: 40px;
   line-height: 50px;
   margin: 0 0 0.6em;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 @media (max-width: 1199px) {
@@ -8032,7 +8026,7 @@ wpo-hero-section-s2
   font-size: 80px;
   line-height: 100px;
   color: #c6d5d3;
-  font-family: "autography", cursive;
+  font-family: "Petit Formal Script", cursive;
 }
 
 @media (max-width: 991px) {
@@ -8912,7 +8906,7 @@ wpo-hero-section-s2
 }
 
 .coming-soon-section .wpo-wedding-date #clock .time {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 60px;
   font-size: 3.33333rem;
   line-height: 1em;
@@ -9892,7 +9886,7 @@ product-design
 .wpo-product-section .wpo-product-wrap .wpo-product-item .wpo-product-text h3 {
   font-size: 20px;
   font-weight: 500;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 .wpo-product-section
@@ -10424,7 +10418,7 @@ product-design
 }
 
 .wpo-shop-single-section .product-info .nav-tabs {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   border: 0;
 }
 
@@ -10452,7 +10446,7 @@ product-design
   margin: 0;
   display: block;
   padding: 12px 20px 11px;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
   position: relative;
 }
 
@@ -10993,7 +10987,7 @@ product-design
   position: absolute;
   top: -5%;
   left: 5%;
-  font-family: "autography", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
 }
 
@@ -11643,7 +11637,7 @@ product-design
   line-height: 1.2em;
   font-weight: 600;
   margin: -0.27em 0 0.7em;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-weight: 600;
 }
 
@@ -11684,7 +11678,7 @@ product-design
   text-decoration: underline;
   color: #585858;
   text-transform: uppercase;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 15px;
   font-weight: 600;
 }
@@ -12031,7 +12025,7 @@ product-design
   font-size: 1.94444rem;
   margin: -0.22em 0 0.7em;
   line-height: 1.3em;
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-weight: 600;
 }
 
@@ -12189,7 +12183,7 @@ product-design
 
 .wpo-blog-single-section .tag-share .tag > span,
 .wpo-blog-single-section .tag-share-s2 .tag > span {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   color: #212121;
   font-weight: 600;
   display: inline-block;
@@ -12285,7 +12279,7 @@ product-design
 }
 
 .wpo-blog-single-section .author-box .author-name {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 24px;
   font-size: 1.33333rem;
   font-weight: 600;
@@ -12437,7 +12431,7 @@ product-design
 }
 
 .wpo-blog-single-section .more-posts .post-name {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 18px;
   font-size: 1rem;
   color: #212121;
@@ -12535,7 +12529,7 @@ product-design
 }
 
 .wpo-blog-single-section .comments-area .comments-meta h4 {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 18px;
   font-size: 1rem;
   color: #212121;
@@ -12551,7 +12545,7 @@ product-design
   text-transform: none;
   display: inline-block;
   padding-left: 5px;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -12561,7 +12555,7 @@ product-design
 }
 
 .wpo-blog-single-section .comments-area .comment-reply-link {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   font-size: 14px;
   font-size: 0.77778rem;
   font-weight: 600;
@@ -12569,7 +12563,7 @@ product-design
   text-align: center;
   border-radius: 50px;
   display: inline-block;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
   text-decoration: underline;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -12668,7 +12662,7 @@ product-design
 }
 
 .wpo-blog-single-section .comment-respond .form-submit input {
-  font-family: "autography", serif;
+  font-family: "Old Standard TT", serif;
   max-width: 180px;
   background-color: #c8a898;
   color: #fff;
@@ -12829,7 +12823,7 @@ product-design
 .wpo-contact-pg-section form .submit-area .theme-btn,
 .wpo-contact-pg-section form .submit-area .view-cart-btn {
   border-radius: 0px;
-  font-family: "autography", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
 }
 
